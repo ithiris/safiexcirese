@@ -1,23 +1,19 @@
-
 var str ="this is a hello world";
-var groupwords =[]
+var res =""
 
 
 function splitingword(){
-
+ var groupwords =[];
 for (var i=0;i<str.length;i++){
-var output =[]
-	groupwords=str[i]
-output.push(groupwords)
+if(str[i]==""){
+  groupwords.push(str[i]);
 
-console.log(output);
 }
 
-
+ 
+}
+console.log(groupwords);
 }
 
 splitingword()
 
-
-
- 
