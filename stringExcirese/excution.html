@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>scope chain</title>
+    
+    
+</head>
+<body>
+    <script>
+        function case_insensitive_search(str1, str2){
+            var str1 = str1.toLowerCase();
+            var str2 = str2.toLowerCase();
+            var res = str1.includes(str2);
+            if(res === true) return 'Matched';
+            else return 'Not matched';
+            };
+            console.log(case_insensitive_search('JavaScript Exercises', 'exercises'));
+            console.log(case_insensitive_search('JavaScript Exercises', 'Exercises'));
+            console.log(case_insensitive_search('JavaScript Exercises', 'Exercisess'))
+        </script> 
+            </script>
+<h1>Scope Concept</h1>
+    <script src="scopechain.js"></script>
+    
+    
+</body>
+</html>

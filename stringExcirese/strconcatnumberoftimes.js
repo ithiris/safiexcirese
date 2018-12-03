@@ -3,9 +3,9 @@ var str ="ha";
 function concate(string,number){
     var outputstr =""
     for(var i=0;i<number;i++){
-        console.log( i, "befor append  " + outputstr);
+        
         outputstr= outputstr + " "+string;
-        console.log( i, "after append  " + outputstr);
+        
             
         }
         
